@@ -87,7 +87,7 @@ F5::
     windowKey := winClass "_" pid  ; Create a unique key for the window based on class and PID
     
     if (!windowLayouts.HasKey(windowKey)) {
-        MsgBox, % "No layouts found for window with PID " pid ". Please set positions first with F5."
+        MsgBox, % "No layouts found for window with PID " pid ". Please set positions first with Ctrl+Alt+1."
         return
     }
     
